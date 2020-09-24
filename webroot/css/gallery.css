@@ -1,0 +1,281 @@
+/* line 12, ../sass/demo.scss */
+/* line 16, ../sass/demo.scss */
+.clear {
+  clear: both;
+  float: none;
+  width: 100%;
+}
+
+/* line 22, ../sass/demo.scss */
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 32, ../sass/demo.scss */
+.container .gallery a img {
+  float: left;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+  float: left;
+  width:  275px;
+  height: 275px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
+/* line 46, ../sass/demo.scss */
+.container .gallery a:hover img {
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  z-index: 5;
+}
+/* line 57, ../sass/demo.scss */
+.container .gallery a.big img {
+  width: 40%;
+}
+
+/* line 65, ../sass/demo.scss */
+.align-center {
+  text-align: center;
+}
+
+
+.gallery-block{
+  margin:0;
+}
+.gallery-block .fa-download,.gallery-block .fa-trash{
+  position: absolute;
+}
+.gallery-block .fa-download{
+  left: 80%;
+  cursor: pointer;
+}
+.gallery-block .col-md-3{
+  /* border: 1px solid #ccc;
+  background: linear-gradient(transparent, rgba(0, 0, 0, .7));
+  height: 430px; */
+  float: left;
+  position: relative;
+  margin-top: -30px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+.gallery-block .col-md-3 .action{
+  bottom: 3px;
+  padding: 10px 4px 5px 4px;
+  margin-left:3px;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 3px rgba(0, 0, 0, .75);
+  z-index: 3;
+
+    background: #696666e0;
+    margin: 0 auto;
+    box-shadow: 0 15px 16.83px 0.17px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 15px 16.83px .17px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 15px 16.83px 0.17px rgba(0,0,0,.05);
+    -o-box-shadow: 0 15px 16.83px .17px rgba(0,0,0,.05);
+    -ms-box-shadow: 0 15px 16.83px .17px rgba(0,0,0,.05);
+/*    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;*/
+
+}
+.galleries{
+  position: relative;
+  float: left;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.galleries img{
+  /* width: 100%;
+  padding: 10px 0px;
+  max-height: 395px; */
+  float: left;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+  float: left;
+  width:  275px;
+  height: 275px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
+.galleries .text{
+  bottom: 0;
+  color: #fff;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.galleries .text .action{
+  float: right;
+  margin: 0 10px;
+}
+.galleries .text .action .fa-trash{
+  padding: 0 10px;
+}
+.galleries .number{
+  font-size: 14px;
+}
+.gallery-photos h4{
+  margin:30px 0;
+}
+.gallery-photos .gallery {
+  position: relative;
+  padding: 4px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-photos .gallery img{
+  min-width: 100%;
+  border:none;
+}
+.gallery-photos .delete{
+  position: absolute;
+  z-index: 1000;
+  margin-top: 10px;
+  color:red;
+  margin-left: -20px;
+}
+.hide{
+  display:none;
+}
+.sl-image .inner{
+  color: #fff;
+  background: #000;
+  opacity: 0.6;
+  font-size: 14px;
+  padding: 10px 5px;
+  float: left;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width:100%;
+}
+.fancybox-caption__body{
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+}
+.fancybox-caption__body p{
+  margin-bottom:0;
+  padding: 5px;
+  text-align:left;
+}
+.fancybox-caption__body p .fa{
+  margin-left: 10em;
+  float:right;
+}
+.gallery-block .delete-all{
+  left: 14em;
+}
+.gallery-block-all .single-photo img{
+  height:275px;
+}
+.gallery-block-all  .container .single-photo a img {
+  float: left;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+  float: left;
+  width: 275px;
+  height: 275px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width:768px){
+  /* .gallery-block .fa-download {
+      left: 93%;
+  } */
+  .mobile-photos-all{
+    margin-left: 5px;
+  }
+  .gallery-block .delete-all{
+      left: 85%;
+  }
+  .gallery-block .col-md-3 {
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 48%;
+    display: table;
+    margin: 0 auto;
+  }
+  .mobile-photos-all .galleries img{
+    height: 120px;
+  }
+  .mobile-photos-all .action{
+    font-size: 10px;
+  }
+   .single-photo img{
+    max-width: 100%;
+    height: 100px !important;
+   }
+
+   .galleries{
+    float: none;
+  }
+  .xmas{background-position: 0 !important;}
+  .gallery,.single-photo{
+    width: 30%;
+    height: auto;
+  }
+  .gallery img{
+    max-width: 30%;
+    height: 100px !important;
+   }
+   .gallery-photos .row{
+    margin-left: 10px;
+   }
+
+}
+
+
+/* For showing all photos */
+@media all and (min-width: 800px) {
+  .fancybox-thumbs {
+    top: auto;
+    width: auto;
+    bottom: 0;
+    left: 0;
+    right : 0;
+    height: 95px;
+    padding: 10px 10px 5px 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .fancybox-show-thumbs .fancybox-inner {
+    right: 0;
+    bottom: 95px;
+  }
+}

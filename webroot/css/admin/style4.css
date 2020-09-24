@@ -1,0 +1,84 @@
+.card1 {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  /* position: relative; */
+  margin-bottom: 70px;
+  border: 1px #145296  solid;
+  min-height: 340px;
+}
+#label-user {
+    position: relative;
+    top: -40px;
+    left: 0px;
+    height: 40px;
+    width: 200px;
+    background-color: #145b9d;
+    /* border: 2px solid #fff; */
+    text-align: center;
+    padding: 0px 5px;
+    /* color: #145296; */
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    border-radius: 4px;
+    line-height: 40px;
+    }
+.div-left{
+    width:48%;
+    float:left
+}
+.div-right{
+    width:48%;
+    float:right
+}
+.w-100{
+    width:100%
+}
+.box {
+  position: relative;
+    width: 70%;
+    height: 185px;
+  background: #fff;
+    margin: 40px auto;
+
+  h3 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+  }
+}
+.blog-shadow-dreamy {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+                0 2px 4px rgba(0,0,0,0.07),
+                0 4px 8px rgba(0,0,0,0.07),
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07),
+                0 32px 64px rgba(0,0,0,0.07);
+}
+.btn-primary {
+    color: #145296;
+    background-color: #f3f3f3!important;
+    border-color: #f3f3f3!important
+}
+.reg-buttons {
+    overflow:auto;
+    height:260px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc
+}
+@media (max-width: 768px){
+    .div-left{
+    width:100%;
+    float:left
+}
+.div-right{
+    width:100%;
+    float:right
+}
+
+}

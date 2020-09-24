@@ -1,0 +1,39 @@
+/* Write your custom CSS here */
+.scrollBtn{
+    display: none;
+    position: fixed;
+    bottom: 66px;
+    right: 10px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    /* background-color:#052852; */
+    background:#a0a8b3;
+    color: white;
+    cursor: pointer;
+    padding: 10px 8px 8px 8px;
+    border-radius: 4px;
+    transition: all .2s;
+}
+
+.font-bold{
+    font-weight:700;
+}
+
+.container-customer {
+    max-width:1500px;
+}
+
+.table-customer {
+    min-width:1400px;
+    width:100% !important;
+}
+
+a,body,span,text{
+    font-family:arial,sans-serif;
+}
+
+.form-search .btn-success,.form-search .btn-info,.form-search .btn-default,.form-search .btn-danger{
+    width: 100px;
+}

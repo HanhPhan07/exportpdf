@@ -1,0 +1,24 @@
+.Pdfpage {
+  border: 1px solid;
+  color: black;
+  background-color: #20c997;
+  text-align: center;
+  width: 70%;
+  margin-left: 70px;
+}
+.div-divide {
+  width: 2px;
+  height: 15px;
+  margin-left: 100px;
+  background-color: black;
+}
+.divHR {
+    margin-top:10px;
+    margin-left: 30px;
+}
+.spanHR {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 70px;
+}
